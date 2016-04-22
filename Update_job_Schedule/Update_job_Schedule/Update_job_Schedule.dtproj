@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-K17D07D6</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGigT/6bQxEmdeoHbUMZ+8gAAAAACAAAAAAAQZgAAAAEAACAAAACW0Oxkw4Eg93wAVhHTmENgDthxeUkfAAirkokAWin2MwAAAAAOgAAAAAIAACAAAAD4HXYqpsMP2CuEd2FPECby6jDIKQtDBGPVRIs89W8XyJAAAADTlaB3ySEYGwwlyOp688Fr9qiAaRAIpk6EGSY2nUKb/4WwBq9eUUT6VhRYE8W7dfA/stMY0WqhIFd+Y5si81xWoinv9mLpUFKGbjYBclXOv9NBGwahxuLRBRddUvsiBx+2T2c1MzX/9X7IbebkqqigDGC9X/NKJLt8xBaLrMNshLIGtT2Qhv9DaNICL6MIxVZAAAAAODVf1IdkAk8dZCJnCVllfg+6R3flY5uj/QHlXUU4xX8YnAlVexeJtToy3ljDLhnRAwvRKxU8ImzPM2TZVvIQ0w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGigT/6bQxEmdeoHbUMZ+8gAAAAACAAAAAAAQZgAAAAEAACAAAADI2ol5U/DaF1ykXpXzqMg6ErtF9t/a5Re7X6SJVKQWTwAAAAAOgAAAAAIAACAAAACGI/T+76bq/0XUpTQ3NtZOHAu1CGvIbYi3b268FS8ZpZAAAADAihE6+2L8FxdTI+q/6GbIpp2cep4I/7i3Yso2w+4t2kstzCxCxjYzTz7A24Z23XKfy68HCyUnjDIdVuyKSlQCsER/rDNJSjiXIiHcx0CAREt80IJnOd5aeD6idwtAundDLqadLcIWbLF0PjMxbEsVN8YF67lr16kgMpnCk5PlWr7hIVVp7rlHvRF4lYLmuWRAAAAAyZsmEO4M0WxUeMEiJgX+skMkORn9LpivVZlOWQcveK5SxKgwBKGMcEdVcncw7fv9yhoo341ljarMiQcLKVpi/g==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Update Shceduel Job.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="File Validation.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="LAPTOP-K17D07D6_SQL2014.AdventureWorks2014.conmgr" />
@@ -127,16 +128,33 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Update Shceduel Job.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Package1.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{3DD28A50-E44C-4D74-B960-3123D4EAB74E}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Update Shceduel Job</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{31C08BDD-E370-4222-9843-0B59BC2B1384}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C7246D7C-3535-44EB-9EC4-84714EF28E21}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E487FE24-943D-4E4F-B951-B19533A00F2C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="File Validation.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{4FD3E77D-63C6-4392-AF5E-CF3E44D09F1E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">File Validation</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">103</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B99BDC05-BD13-449A-B28D-2E74AE029921}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
